@@ -1,4 +1,29 @@
 const POSTS = [
+
+  { slug: "presentation-skills",
+    title: "The Importance of Presentation Skill",
+    desc: "Why you should achieve the presentation skill and why it is important?",
+    date: "2026-01-25",
+    tags: ["career", "presentation-skill" ],
+    readingTime: "3 min read",
+    content: `
+    <b>Presentation</b> means, to deliver the featured product or service in front of the interested people. It helps us to grow our business and also most important for networking. From University life to corporate life it is much needed. if you can serve good then you can sell good. <br /> <br />
+
+    I think people will listen you when you can make feel them that you are needed to them. Otherwise no one will listen to you. But for this practice we need to maintain some key strategies that makes our presentation more attractive. Firstly, when we are prepared for any kind of presentation we need to be in formal. It makes a good impression to the audience. Secondly, our gestures should be controlled with our mind. If we feel nervous then our body language will make different bothering gestures that makes the audience negative impact on a presenter. <br /> <br />
+
+    Thirdly, we need to make the perfect use of eye contact. It is very important when a presenter is presenting something. It attracts the listeners to make interested for the topic.  Fourhty, all presenters should be motivated while he/she is delivering his/her speech. This will grow the faith to himself/herself.  <br /> <br />
+
+    Here are some key points for understandting the importance of it: <br /> <br />
+
+    1. It helps in the career growth <br />
+    2. For businessman it helps to win the business deals <br />
+    3. For corporates or students it helps to make engagement between the presenter and the organization <br />
+    4. For freshers it grows the networking with all over the field the presenter wants to reach <br />
+    5. For any kind of international businesses it provides a critical competitive edge.<br /> <br />
+
+    Ultimately, the ability to <b>"serve"</b> information well is the key to <b>"selling"</b> effectively in any environment. <br />
+  `.trim(),
+  },
   {
     slug: "ai-coding-fundamentals",
     title: "In the Age of AI, Coding Fundamentals Are More Important Than Ever",
