@@ -1,4 +1,4 @@
-# Personal Blog – Nifad Hasan
+# Personal Blog – Nifad Hasan Eimu
 
 A clean, fast, and fully responsive personal blog built using **HTML, CSS, and JavaScript**, hosted on **GitHub Pages** with a custom domain.
 
