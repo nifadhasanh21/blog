@@ -1,10 +1,327 @@
 const POSTS = [
+  {
+    slug: "who-is-nifad-hasan-eimu",
+    title: "Who is Nifad Hasan Eimu?",
+    desc: "A detailed introduction to Nifad Hasan Eimu — Software Engineering student, aspiring web developer, problem solver, and future-focused tech enthusiast from Bangladesh.",
+    date: "2026-03-12",
+    tags: ["about", "career", "portfolio"],
+    readingTime: "8 min read",
+    content: `
+    <p>
+      <b>Nifad Hasan Eimu</b> is a passionate <b>Software Engineering student</b>, aspiring <b>web developer</b>, and future-focused technology enthusiast from Bangladesh.
+      He is currently pursuing his <b>BSc in Software Engineering at Daffodil International University</b>, where he is building a strong academic and practical foundation in programming, software development, problem-solving, and modern web technologies.
+    </p>
 
-  { slug: "presentation-skills",
+    <p>
+      More than just a student, Nifad represents a new generation of learners who are not satisfied with only completing university courses.
+      He believes that in today’s competitive world, real success comes from combining <b>academic knowledge, practical skills, communication ability, and personal branding</b>.
+      That mindset is what makes his journey different.
+    </p>
+
+    <img
+      src="/Nifad Hasan Eimu.jpeg"
+      alt="Modern software engineering workspace with laptop"
+      style="width:40%; border-radius:16px; margin: 20px 0;"
+    />
+
+    <h2>Academic Identity and Learning Mindset</h2>
+    <p>
+      As a Software Engineering student at <b>Daffodil International University (DIU)</b>, Nifad has been consistently developing his understanding of how software is planned, designed, implemented, and improved.
+      His academic journey is not limited to memorizing theory. Instead, he focuses on understanding how each concept connects to real-world software systems.
+    </p>
+
+    <p>
+      Through his coursework and independent study, he has explored important topics such as <b>Structured Programming, Data Structures, Discrete Mathematics, Software Design Concepts, Logic Building, and Problem Solving</b>.
+      These subjects have helped him develop a disciplined approach toward coding and system thinking.
+    </p>
+
+    <h2>Technical Skills and Development Focus</h2>
+    <p>
+      Nifad’s technical journey began with learning the fundamentals of programming and gradually expanded toward modern development.
+      He has worked with technologies such as <b>C, Java, HTML, CSS, and JavaScript</b>, and he is also actively building his path toward becoming a stronger <b>frontend and full-stack web developer</b>.
+    </p>
+
+    <p>
+      He believes that in the age of AI, the most powerful developers are those who understand the <b>fundamentals</b>.
+      That is why he values raw coding, logic building, debugging, data handling, and system understanding rather than depending blindly on automation tools.
+      For him, AI is a tool that increases productivity—but strong fundamentals are what create mastery.
+    </p>
+
+    <p>
+      His growing interest in <b>React and the MERN stack</b> reflects his goal of building real-world, scalable, and professional web applications.
+      He is particularly interested in clean user interfaces, maintainable code structure, practical project architecture, and websites that are both functional and visually strong.
+    </p>
+
+    <h2>Projects That Reflect His Growth</h2>
+    <p>
+      One of the strongest parts of Nifad’s journey is that he does not just learn concepts—he tries to apply them through projects.
+      Over time, he has worked on multiple academic and practical software ideas that helped him improve his coding confidence and project-thinking ability.
+    </p>
+
+    <p>
+      Some of the projects and project directions he has explored include:
+    </p>
+
+    <ul>
+      <li><b>Health Care Management System in C</b> — a large in-memory project designed with multiple roles and practical functionality.</li>
+      <li><b>Mini Library Management System</b> — created for structured programming lab work, focusing on logic, data types, arrays, strings, and functions.</li>
+      <li><b>Software Engineering modeling work</b> — including use cases, requirement analysis, and traceability-related academic tasks.</li>
+      <li><b>Portfolio and web presence building</b> — focusing on professional presentation, SEO basics, and personal branding through a modern web portfolio.</li>
+    </ul>
+
+    <p>
+      These experiences helped him understand something very important: software engineering is not only about writing code that runs.
+      It is about building systems that are understandable, usable, and purposeful.
+    </p>
+
+    <h2>Beyond Coding: Personal Branding and Communication</h2>
+    <p>
+      What makes Nifad especially unique is that he does not see himself as “just a coder.”
+      He understands that in today’s digital world, your <b>presentation, communication, and professional identity</b> matter just as much as your technical skills.
+    </p>
+
+    <p>
+      He has a strong interest in <b>presentation skills, career development, remote work readiness, and building a recognizable professional online presence</b>.
+      This is one of the reasons he is actively working on his portfolio, improving his blog content, and refining how he presents himself to recruiters, clients, collaborators, and future opportunities.
+    </p>
+
+    <p>
+      He believes that a strong developer should be able to:
+    </p>
+
+    <ul>
+      <li>Write clean and understandable code</li>
+      <li>Explain ideas clearly</li>
+      <li>Present projects professionally</li>
+      <li>Build trust through consistency and quality</li>
+      <li>Continuously learn and adapt</li>
+    </ul>
+
+    <h2>His Vision for the Future</h2>
+    <p>
+      Nifad Hasan Eimu is building himself with a long-term vision.
+      His goal is not only to become a graduate, but to become a <b>high-value software professional</b> who can compete globally.
+      He wants to grow into a developer who can work on meaningful products, build strong web applications, contribute to real teams, and create solutions that make a difference.
+    </p>
+
+    <p>
+      He is especially interested in opportunities that combine <b>software engineering, modern web development, problem solving, and international remote work</b>.
+      With every semester, every project, and every new skill, he is moving closer to that goal.
+    </p>
+
+    <h2>Final Words</h2>
+    <p>
+      So, who is Nifad Hasan Eimu?
+    </p>
+
+    <p>
+      He is a student—but not only a student.
+      He is a learner, a builder, a future software engineer, and a young professional shaping his path with consistency, ambition, and vision.
+      He is someone who believes that with the right mix of <b>knowledge, discipline, communication, and execution</b>, a student from Bangladesh can build a career that reaches far beyond borders.
+    </p>
+
+    <p>
+      This is not just the story of who he is today.
+      It is the beginning of who he is becoming.
+    </p>
+  `.trim(),
+  },
+  {
+    slug: "my-journey-as-a-software-engineering-student-at-diu",
+    title:
+      "My Journey as a Software Engineering Student at Daffodil International University",
+    desc: "A detailed reflection on my growth, learning, challenges, projects, and future vision as a Software Engineering student at Daffodil International University.",
+    date: "2026-02-22",
+    tags: ["journey", "software-engineering", "diu"],
+    readingTime: "9 min read",
+    content: `
+    <p>
+      My journey as a <b>Software Engineering student at Daffodil International University</b> has been more than an academic experience.
+      It has been a journey of growth, discipline, self-discovery, and preparation for the future I want to build.
+      Every semester, every class, every project, and every challenge has shaped the way I think—not only as a student, but as an aspiring software professional.
+    </p>
+
+    <p>
+      When I first started this journey, I had excitement, curiosity, and a dream.
+      Like many students entering the world of technology, I knew software was powerful, but I did not yet fully understand how deep and meaningful this field really is.
+      Over time, that curiosity turned into commitment.
+    </p>
+
+    <img
+      src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80"
+      alt="Students learning together in university"
+      style="width:100%; border-radius:16px; margin: 20px 0;"
+    />
+
+    <h2>Starting with Curiosity</h2>
+    <p>
+      In the beginning, Software Engineering felt like a huge world.
+      There were programming languages, logic, algorithms, software models, debugging, data structures, mathematics, and many other concepts that seemed challenging at first.
+      But I realized something important very early: if I stayed consistent and kept practicing, difficult things would eventually become understandable.
+    </p>
+
+    <p>
+      That realization changed my mindset.
+      Instead of being afraid of hard topics, I started seeing them as steps in my growth.
+      Every difficult assignment became a lesson.
+      Every error message became part of the learning process.
+      Every lab task became an opportunity to improve.
+    </p>
+
+    <h2>Learning the Fundamentals</h2>
+    <p>
+      One of the strongest parts of my journey has been learning the <b>fundamentals</b>.
+      I strongly believe that in software engineering, fundamentals matter more than shortcuts.
+      That is why I spent time focusing on the basics of programming, especially through subjects like <b>Structured Programming, Data Structures, Logic Building, and Discrete Mathematics</b>.
+    </p>
+
+    <p>
+      I learned how to think step by step, how to break down a problem into smaller parts, how arrays and loops work, how conditions control logic, how functions improve structure, and how efficient thinking matters in programming.
+      These ideas may look simple at first, but they form the backbone of everything bigger in software development.
+    </p>
+
+    <p>
+      As I continued my studies, I became more comfortable with <b>C, Java, HTML, CSS, and JavaScript</b>.
+      Each language taught me something different:
+    </p>
+
+    <ul>
+      <li><b>C</b> taught me logic, structure, memory awareness, and discipline.</li>
+      <li><b>Java</b> helped me understand object-oriented thinking and class-based design.</li>
+      <li><b>HTML & CSS</b> gave me the power to structure and design web interfaces.</li>
+      <li><b>JavaScript</b> opened the door to interactive web development and modern frontend growth.</li>
+    </ul>
+
+    <h2>Academic Projects That Built Confidence</h2>
+    <p>
+      One of the most valuable parts of studying at Daffodil International University has been the project-based learning experience.
+      Academic projects gave me a chance to apply what I learned instead of keeping everything theoretical.
+      That practical exposure helped me build confidence in my ability to create something real.
+    </p>
+
+    <p>
+      Throughout my journey, I worked on multiple projects and assignments that improved both my coding ability and my problem-solving mindset.
+      Some of the most meaningful ones include:
+    </p>
+
+    <ul>
+      <li>
+        <b>Mini Library Management System</b> — a structured programming lab project that helped me practice arrays, conditions, loops, strings, functions, and user-based logic in C.
+      </li>
+      <li>
+        <b>Health Care Management System in C</b> — a larger and more ambitious project where I explored multi-role system thinking, data handling, appointments, billing concepts, and structured functionality.
+      </li>
+      <li>
+        <b>Software Engineering requirement and modeling tasks</b> — where I learned how software is planned before development through use cases, traceability thinking, and requirement structure.
+      </li>
+      <li>
+        <b>Presentation and seminar-based work</b> — which improved my communication ability and helped me become more confident in explaining technical concepts clearly.
+      </li>
+    </ul>
+
+    <p>
+      These projects taught me that software engineering is not only about making a program run.
+      It is about building with purpose, thinking about users, organizing logic, and making a system easier to understand and maintain.
+    </p>
+
+    <img
+      src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=1400&q=80"
+      alt="Student working on laptop in university environment"
+      style="width:100%; border-radius:16px; margin: 20px 0;"
+    />
+
+    <h2>Challenges That Made Me Stronger</h2>
+    <p>
+      Of course, the journey has not been easy.
+      There were many moments when assignments felt overwhelming, deadlines felt stressful, and some topics seemed harder than expected.
+      Sometimes understanding a concept took more time than I wanted.
+      Sometimes debugging a program became frustrating.
+      Sometimes balancing academic pressure with personal goals felt difficult.
+    </p>
+
+    <p>
+      But I now understand that those difficult moments were some of the most valuable parts of my growth.
+      They taught me patience.
+      They taught me persistence.
+      They taught me that improvement does not come from comfort—it comes from consistency.
+    </p>
+
+    <p>
+      Every time I solved a difficult problem, fixed a bug, completed a project, or understood a confusing topic, I became more confident.
+      Those moments proved to me that progress is built step by step.
+    </p>
+
+    <h2>Why My Journey Is More Than Just a Degree</h2>
+    <p>
+      For me, studying Software Engineering at Daffodil International University is not only about earning a certificate.
+      It is about building the foundation of the career I want in the future.
+      I do not want to be someone who only passes exams.
+      I want to become someone who can actually <b>build software, solve problems, communicate professionally, and work confidently in real environments</b>.
+    </p>
+
+    <p>
+      That is why I have also focused on areas beyond academics:
+    </p>
+
+    <ul>
+      <li>Improving my <b>presentation skills</b></li>
+      <li>Building a professional <b>portfolio website</b></li>
+      <li>Learning about <b>personal branding</b> and online visibility</li>
+      <li>Understanding the importance of <b>coding fundamentals in the AI era</b></li>
+      <li>Exploring <b>React and the MERN stack</b> for modern web development</li>
+      <li>Preparing myself for future <b>remote and international opportunities</b></li>
+    </ul>
+
+    <p>
+      I believe this combination of academic learning and practical self-development is what will truly prepare me for the software industry.
+    </p>
+
+    <h2>My Vision as a Future Software Engineer</h2>
+    <p>
+      As I continue my journey, I see myself moving toward a future where I can contribute meaningfully as a software engineer and web developer.
+      I want to build websites, applications, and systems that are useful, clean, and impactful.
+      I want to keep learning modern technologies while staying strong in the fundamentals.
+    </p>
+
+    <p>
+      I also want to grow into a professional who can work beyond borders.
+      As someone from Bangladesh, I truly believe that with the right skills, mindset, and consistency, it is possible to compete globally.
+      That belief motivates me every day.
+    </p>
+
+    <p>
+      My dream is not only to get a job.
+      My dream is to become valuable—to become someone whose skills, work ethic, and mindset create opportunities.
+    </p>
+
+    <h2>Final Reflection</h2>
+    <p>
+      Looking back, my journey at <b>Daffodil International University</b> has already taught me so much.
+      It has taught me how to think logically, how to stay consistent, how to face challenges, and how to keep growing even when things feel difficult.
+    </p>
+
+    <p>
+      And the most exciting part is this:
+      I know I am still only at the beginning.
+    </p>
+
+    <p>
+      There is still so much to learn, so much to build, and so much to achieve.
+      But I am grateful for every step of this journey because each one is helping shape me into the software engineer I want to become.
+    </p>
+
+    <p>
+      This journey is still in progress.
+      And I am committed to making it meaningful.
+    </p>
+  `.trim(),
+  },
+  {
+    slug: "presentation-skills",
     title: "The Importance of Presentation Skill",
     desc: "Why you should achieve the presentation skill and why it is important?",
     date: "2026-01-25",
-    tags: ["career", "presentation-skill" ],
+    tags: ["career", "personal-brand"],
     readingTime: "3 min read",
     content: `
     <b>Presentation</b> means, to deliver the featured product or service in front of the interested people. It helps us to grow our business and also most important for networking. From University life to corporate life it is much needed. if you can serve good then you can sell good. <br /> <br />
@@ -29,7 +346,7 @@ const POSTS = [
     title: "In the Age of AI, Coding Fundamentals Are More Important Than Ever",
     desc: "Why learning the basics still matters—even when AI can write code for you.",
     date: "2025-12-31",
-    tags: ["career", "javascript", "mern"],
+    tags: ["development", "career"],
     readingTime: "6 min read",
     content: `
     We are living in the age of <b>Artificial Intelligence(Ai).</b> From student to corporate life it has become the daily fundamental need. Many people think that because AI can write code, generate solutions, and even build applications automatically, we no longer need to learn <b>“raw coding.”</b> But this idea is totally wrong. Let’s see how? <br /> <br />
@@ -51,7 +368,7 @@ const POSTS = [
     title: "My MERN learning roadmap (what I’d do again)",
     desc: "A simple order to learn MongoDB → Express → React → Node without getting overwhelmed.",
     date: "2025-12-31",
-    tags: ["mern", "react", "javascript"],
+    tags: ["web-dev", "development"],
     readingTime: "5 min read",
     content: `
       <p>Here’s a clean path to learn MERN without getting stuck:</p>
@@ -80,7 +397,7 @@ POST /api/items
     title: "Deploy a static website the easy way",
     desc: "A clean checklist to publish your portfolio/blog with a custom domain and HTTPS.",
     date: "2025-12-20",
-    tags: ["career", "javascript"],
+    tags: ["web-dev", "development"],
     readingTime: "6 min read",
     content: `
       <p>
@@ -151,7 +468,7 @@ POST /api/items
     title: "React component structure that stays clean",
     desc: "A simple folder structure + naming style that keeps your project readable as it grows.",
     date: "2025-11-30",
-    tags: ["react", "javascript"],
+    tags: ["web-dev", "development"],
     readingTime: "7 min read",
     content: `
       <p>
@@ -337,7 +654,7 @@ function renderIndex() {
     if (!btn) return;
     activeTag = btn.getAttribute("data-tag") || "all";
     [...chips.querySelectorAll(".chip")].forEach((c) =>
-      c.classList.remove("active")
+      c.classList.remove("active"),
     );
     btn.classList.add("active");
     render();
@@ -385,7 +702,7 @@ function renderPost() {
       setTimeout(
         () =>
           ($("#copyLink").innerHTML = `<i class="bx bx-link"></i> Copy link`),
-        1200
+        1200,
       );
     } catch {}
   });
