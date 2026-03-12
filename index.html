@@ -1,13 +1,19 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Nifad Hasan's blog — web dev, MERN, programming, and learning notes." />
-  <meta property="og:title" content="Blog | Nifad Hasan" />
-  <meta property="og:description" content="Web development, MERN, programming, and learning notes." />
-  <meta property="og:type" content="website" />
-  <title>Blog | Nifad Hasan Eimu</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Nifad Hasan's blog — web dev, MERN, programming, and learning notes."
+    />
+    <meta property="og:title" content="Blog | Nifad Hasan" />
+    <meta
+      property="og:description"
+      content="Web development, MERN, programming, and learning notes."
+    />
+    <meta property="og:type" content="website" />
+    <title>Blog | Nifad Hasan Eimu</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +21,6 @@
   <link rel="stylesheet" href="blog.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="/logo.png">
   <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
-  <meta name="google-site-verification" content="JVe-RKeH3exC761oKPctrx9ylil22VmhBJzmXpJ64GA" />
 </head>
 <body>
   <header class="header">
@@ -25,128 +30,192 @@
         <span class="brand__text">Nifad Hasan Eimu</span>
       </a>
 
-      <nav class="nav" id="nav">
-        <a href="index.html" class="nav__link active">Blog</a>
-        <a href="https://www.nifadhasan.com/#projects" class="nav__link">Projects</a>
-        <a href="https://www.nifadhasan.com/#contact" class="nav__link">Contact</a>
-      </nav>
+        <nav class="nav" id="nav">
+          <a href="index.html" class="nav__link active">Blog</a>
+          <a href="https://www.nifadhasan.com/#projects" class="nav__link"
+            >Projects</a
+          >
+          <a href="https://www.nifadhasan.com/#contact" class="nav__link"
+            >Contact</a
+          >
+        </nav>
 
-      <div class="header__actions">
-        <button class="icon-btn burger" id="burger" aria-label="Open menu">
-          <i class="bx bx-menu"></i>
-        </button>
-      </div>
-    </div>
-
-    <div class="mobileNav" id="mobileNav" aria-hidden="true">
-      <div class="mobileNav__panel">
-        <div class="mobileNav__top">
-          <span class="mobileNav__title">Menu</span>
-          <button class="icon-btn" id="closeMobile" aria-label="Close menu"><i class="bx bx-x"></i></button>
-        </div>
-
-        <div class="mobileNav__links">
-          <a href="index.html" class="mobileNav__link">Blog <i class="bx bx-right-arrow-alt"></i></a>
-          <a href="https://www.nifadhasan.com" class="mobileNav__link">Portfolio <i class="bx bx-right-arrow-alt"></i></a>
-          <a href="https://www.nifadhasan.com/#projects" class="mobileNav__link">Projects <i class="bx bx-right-arrow-alt"></i></a>
-          <a href="https://www.nifadhasan.com/#contact" class="mobileNav__link">Contact <i class="bx bx-right-arrow-alt"></i></a>
+        <div class="header__actions">
+          <button class="icon-btn burger" id="burger" aria-label="Open menu">
+            <i class="bx bx-menu"></i>
+          </button>
         </div>
       </div>
-    </div>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero__grid">
-        <div class="hero__content">
-          <div class="badge">New • Updated regularly</div>
-          <h1 class="hero__title">Notes on <span class="grad">MERN</span>, web dev, and building products.</h1>
-          <p class="hero__desc">Short, practical posts with code snippets, mistakes, and learnings — so I don’t forget them later 🙂</p>
-
-          <div class="hero__search">
-            <i class="bx bx-search"></i>
-            <input id="search" type="search" placeholder="Search posts (title / tags)…" autocomplete="off" />
+      <div class="mobileNav" id="mobileNav" aria-hidden="true">
+        <div class="mobileNav__panel">
+          <div class="mobileNav__top">
+            <span class="mobileNav__title">Menu</span>
+            <button class="icon-btn" id="closeMobile" aria-label="Close menu">
+              <i class="bx bx-x"></i>
+            </button>
           </div>
 
-          <div class="hero__chips" id="chips">
-            <button class="chip active" data-tag="all">All</button>
-            <button class="chip" data-tag="mern">MERN</button>
-            <button class="chip" data-tag="react">React</button>
-            <button class="chip" data-tag="javascript">JavaScript</button>
-            <button class="chip" data-tag="career">Career</button>
-            <button class="chip" data-tag="ai">AI</button>
+          <div class="mobileNav__links">
+            <a href="index.html" class="mobileNav__link"
+              >Blog <i class="bx bx-right-arrow-alt"></i
+            ></a>
+            <a href="https://www.nifadhasan.com" class="mobileNav__link"
+              >Portfolio <i class="bx bx-right-arrow-alt"></i
+            ></a>
+            <a
+              href="https://www.nifadhasan.com/#projects"
+              class="mobileNav__link"
+              >Projects <i class="bx bx-right-arrow-alt"></i
+            ></a>
+            <a
+              href="https://www.nifadhasan.com/#contact"
+              class="mobileNav__link"
+              >Contact <i class="bx bx-right-arrow-alt"></i
+            ></a>
           </div>
         </div>
+      </div>
+    </header>
 
-        <div class="hero__card">
-          <div class="heroCard">
-            <div class="heroCard__top">
-              <div class="heroCard__icon"><i class="bx bx-code-alt"></i></div>
-              <div>
-                <h3 class="heroCard__title">Featured</h3>
-                <p class="heroCard__meta">Start here</p>
-              </div>
+    <main>
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <div class="badge">New • Updated regularly</div>
+            <h1 class="hero__title">
+              Notes on <span class="grad">MERN</span>, web dev, and building
+              products.
+            </h1>
+            <p class="hero__desc">
+              Short, practical posts with code snippets, mistakes, and learnings
+              — so I don’t forget them later 🙂
+            </p>
+
+            <div class="hero__search">
+              <i class="bx bx-search"></i>
+              <input
+                id="search"
+                type="search"
+                placeholder="Search posts (title / tags)…"
+                autocomplete="off"
+              />
             </div>
-            <a class="heroCard__link" href="post.html?slug=roadmap-mern" aria-label="Read featured post">
-              <h2 class="heroCard__headline">My MERN learning roadmap (what I’d do again)</h2>
-              <p class="heroCard__text">A simple order to learn MongoDB → Express → React → Node without getting overwhelmed.</p>
-              <span class="heroCard__cta">Read post <i class="bx bx-right-arrow-alt"></i></span>
+
+            <div class="hero__chips" id="chips">
+              <button class="chip active" data-tag="all">All</button>
+              <button class="chip" data-tag="career">Career</button>
+              <button class="chip" data-tag="development">Development</button>
+              <button class="chip" data-tag="web-dev">Web Dev</button>
+              <button class="chip" data-tag="student-life">Student Life</button>
+              <button class="chip" data-tag="personal-brand">
+                Personal Brand
+              </button>
+            </div>
+          </div>
+
+          <div class="hero__card">
+            <div class="heroCard">
+              <div class="heroCard__top">
+                <div class="heroCard__icon"><i class="bx bx-code-alt"></i></div>
+                <div>
+                  <h3 class="heroCard__title">Featured</h3>
+                  <p class="heroCard__meta">Start here</p>
+                </div>
+              </div>
+              <a
+                class="heroCard__link"
+                href="post.html?slug=roadmap-mern"
+                aria-label="Read featured post"
+              >
+                <h2 class="heroCard__headline">
+                  My MERN learning roadmap (what I’d do again)
+                </h2>
+                <p class="heroCard__text">
+                  A simple order to learn MongoDB → Express → React → Node
+                  without getting overwhelmed.
+                </p>
+                <span class="heroCard__cta"
+                  >Read post <i class="bx bx-right-arrow-alt"></i
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Latest posts</h2>
+            <div class="sort">
+              <label class="sort__label" for="sort">Sort</label>
+              <select id="sort" class="sort__select">
+                <option value="new">Newest</option>
+                <option value="old">Oldest</option>
+                <option value="az">A → Z</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid" id="posts"></div>
+
+          <div class="empty" id="empty" hidden>
+            <h3>No posts found</h3>
+            <p>Try another keyword or tag.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> Nifad Hasan Eimu.</p>
+
+        <div class="footer__right">
+          <div class="footer__links">
+            <a href="https://www.nifadhasan.com" class="footer__link"
+              >Portfolio</a
+            >
+            <a href="https://www.nifadhasan.com/#contact" class="footer__link"
+              >Contact</a
+            >
+          </div>
+
+          <div class="footer__social">
+            <!-- Replace YOUR_USERNAME with your real profiles -->
+            <a
+              class="social-btn"
+              href="https://www.linkedin.com/in/nifadhasanh21/"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+            >
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a
+              class="social-btn"
+              href="https://github.com/nifadhasanh21"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+            <a
+              class="social-btn"
+              href="https://www.instagram.com/nifad_hasan_h21/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+            >
+              <i class="bx bxl-instagram"></i>
             </a>
           </div>
         </div>
       </div>
-    </section>
+    </footer>
 
-    <section class="section">
-      <div class="container">
-        <div class="section__header">
-          <h2 class="section__title">Latest posts</h2>
-          <div class="sort">
-            <label class="sort__label" for="sort">Sort</label>
-            <select id="sort" class="sort__select">
-              <option value="new">Newest</option>
-              <option value="old">Oldest</option>
-              <option value="az">A → Z</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="grid" id="posts"></div>
-
-        <div class="empty" id="empty" hidden>
-          <h3>No posts found</h3>
-          <p>Try another keyword or tag.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer__inner">
-      <p>© <span id="year"></span> Nifad Hasan Eimu.</p>
-
-      <div class="footer__right">
-        <div class="footer__links">
-          <a href="https://www.nifadhasan.com" class="footer__link">Portfolio</a>
-          <a href="https://www.nifadhasan.com/#contact" class="footer__link">Contact</a>
-        </div>
-
-        <div class="footer__social">
-          <!-- Replace YOUR_USERNAME with your real profiles -->
-          <a class="social-btn" href="https://www.linkedin.com/in/nifadhasanh21/" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <i class="bx bxl-linkedin"></i>
-          </a>
-          <a class="social-btn" href="https://github.com/nifadhasanh21" target="_blank" rel="noopener" aria-label="GitHub">
-            <i class="bx bxl-github"></i>
-          </a>
-          <a class="social-btn" href="https://www.instagram.com/nifad_hasan_h21/" target="_blank" rel="noopener" aria-label="Instagram">
-            <i class="bx bxl-instagram"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="blog.js"></script>
-</body>
+    <script src="blog.js"></script>
+  </body>
 </html>
