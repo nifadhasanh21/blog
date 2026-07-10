@@ -25,7 +25,7 @@ const POSTS = [
     </p>
 
     <img
-      src="/Ai post.png"
+      src="ai-post.png"
       alt="Software engineer working with AI coding assistant across multiple monitors"
       style="width:60%; border-radius:16px; margin: 20px 0;"
     />
