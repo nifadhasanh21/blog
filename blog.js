@@ -1,5 +1,176 @@
 const POSTS = [
   {
+    slug: "ai-is-not-replacing-developers-its-changing-how-they-work",
+
+    title: "AI Isn't Replacing Developers — It's Changing How They Work",
+
+    desc: "A professional, in-depth look at how AI tools are reshaping the daily workflow of software engineers — from writing code to directing it — and why critical thinking, system design, and human judgment remain the real competitive edge in 2026.",
+
+    date: "2026-07-10",
+
+    tags: ["ai", "software-engineering", "career", "web-development"],
+
+    readingTime: "9 min read",
+
+    content: `
+    <p>
+      Every few months, a new wave of headlines resurfaces the same question:
+      <b>will AI replace software developers?</b>
+      It is asked by students worried about their future, by junior developers watching AI write code faster than they can, and by senior engineers trying to figure out how to lead teams in a landscape that keeps shifting under their feet.
+    </p>
+
+    <p>
+      It is a fair question. But it is also, in many ways, the wrong one.
+      The more useful question is not <i>whether</i> AI will replace developers, but <i>how</i> it is already changing what it means to be one — and what that means for anyone building a career in software today.
+    </p>
+
+    <img
+      src="/Post-1_AI isn't replacing developers—it's changing how they work."
+      alt="Software engineer working with AI coding assistant across multiple monitors"
+      style="width:60%; border-radius:16px; margin: 20px 0;"
+    />
+
+    <h2>The Fear Is Understandable — But It's Based on the Wrong Comparison</h2>
+    <p>
+      Much of the anxiety around AI in software development comes from comparing AI to a developer as a whole person.
+      But that is not really what AI does. AI does not understand a client's business goals, does not sit in a sprint planning meeting, does not weigh trade-offs between speed and maintainability, and does not take responsibility when a system fails in production.
+    </p>
+
+    <p>
+      What AI actually replaces is narrower and more specific: repetitive, well-defined, pattern-based work.
+      Writing boilerplate functions, generating standard CRUD endpoints, recalling syntax, formatting code, and producing first-draft implementations of well-known patterns — this is where AI has become genuinely powerful.
+      And this is precisely the kind of work that used to consume a large share of a developer's day without adding much unique value.
+    </p>
+
+    <h2>From Writing Every Line to Directing the Work</h2>
+    <p>
+      A few years ago, a large part of a developer's time was spent typing — searching documentation, recalling syntax, and manually debugging small, repetitive issues line by line.
+      Today, AI coding assistants can generate that boilerplate in seconds, suggest fixes, explain unfamiliar code, and even scaffold entire features from a short description.
+    </p>
+
+    <p>
+      This shift does not remove the developer from the process. It moves them up a level.
+      Instead of typing every line, developers are increasingly responsible for <b>directing, reviewing, and validating</b> what AI produces.
+      In practice, this looks like:
+    </p>
+
+    <ul>
+      <li>Describing a problem precisely enough for AI to generate a useful first draft</li>
+      <li>Reading AI-generated code critically instead of accepting it at face value</li>
+      <li>Catching subtle bugs, security issues, or bad assumptions the AI introduced</li>
+      <li>Deciding whether a suggested approach actually fits the wider system</li>
+      <li>Refactoring AI output into something that matches the team's standards and architecture</li>
+    </ul>
+
+    <p>
+      This is a fundamentally different skill set than simply "knowing how to code."
+      It requires a developer to understand a codebase deeply enough to spot when something looks right but isn't — which is often harder than writing the code from scratch.
+    </p>
+
+    <h2>What AI Cannot Do</h2>
+    <p>
+      AI is excellent at pattern recognition, code generation, and speeding up familiar, well-documented tasks.
+      But software engineering has never really been just "writing code." It is the process of turning ambiguous human problems into working, maintainable systems — and that process depends on abilities AI does not have.
+    </p>
+
+    <p>
+      A few of these stand out clearly:
+    </p>
+
+    <ul>
+      <li><b>Critical thinking</b> — knowing which problem is actually worth solving, and which requirements are assumptions in disguise.</li>
+      <li><b>Problem solving</b> — breaking down ambiguous, real-world requirements into a working, testable solution.</li>
+      <li><b>System design</b> — deciding how components fit together, scale under load, and stay maintainable years after launch.</li>
+      <li><b>Judgment</b> — recognizing when an AI-generated suggestion is clever but wrong for this specific context, team, or business.</li>
+      <li><b>Accountability</b> — owning the outcome when a decision turns out to be wrong, something no tool can do on a developer's behalf.</li>
+    </ul>
+
+    <p>
+      These are the skills that separate a developer who merely uses AI from a developer who builds real, reliable software with it.
+      They are also, not coincidentally, the skills that were always the hardest part of the job — writing syntactically correct code was never the true bottleneck in software engineering; understanding the problem always was.
+    </p>
+
+    <h2>Using AI as a Productivity Partner, Not a Shortcut</h2>
+    <p>
+      There is an important difference between using AI to move faster and using AI to avoid understanding.
+      Used well, AI becomes a tool for brainstorming ideas, debugging faster, exploring unfamiliar concepts, and reducing the time spent on tasks that do not require deep judgment.
+      Used poorly, it becomes a way to ship code nobody on the team, including the person who "wrote" it, actually understands.
+    </p>
+
+    <p>
+      This distinction matters more than it might seem, especially early in a developer's career.
+      A developer who copies AI-generated code without understanding it is building on sand — the moment something breaks in a way the AI did not anticipate, they have no foundation to debug from.
+      A developer who uses AI to accelerate work they already understand is building faster, on solid ground, and using the time saved to think about the parts of the problem that actually need a human mind.
+    </p>
+
+    <h2>Why Fundamentals Matter More, Not Less</h2>
+    <p>
+      It is tempting to think that if AI can write code, fundamentals like data structures, algorithms, and clean architecture matter less than before.
+      In practice, the opposite is true.
+    </p>
+
+    <p>
+      AI-generated code still needs to be evaluated, and evaluation requires a strong baseline understanding of how software actually works.
+      A developer with weak fundamentals cannot reliably tell the difference between an elegant AI suggestion and a subtly broken one.
+      They can prompt a tool, but they cannot judge its output — and judgment is the part of the job that determines whether software actually works in the real world, under real constraints, at scale.
+    </p>
+
+    <p>
+      In this sense, AI has not lowered the bar for what a serious developer needs to know. It has raised it, by removing the easiest, most mechanical tasks and leaving behind the ones that require genuine understanding.
+    </p>
+
+    <h2>What Will Set Developers Apart in 2026 and Beyond</h2>
+    <p>
+      As AI tools become a standard part of every development workflow, the gap between developers will not be defined by who has access to AI — almost everyone will.
+      The real gap will be defined by who can combine technical skill with sound decision-making, communication, and product sense.
+    </p>
+
+    <p>
+      The developers who stand out going forward will be the ones who can:
+    </p>
+
+    <ul>
+      <li>Think critically about a problem before reaching for a tool to solve it</li>
+      <li>Solve real, messy, real-world problems — not just textbook exercises</li>
+      <li>Understand system design well enough to guide AI output rather than follow it blindly</li>
+      <li>Communicate clearly with teammates, clients, and stakeholders about trade-offs</li>
+      <li>Treat AI as a productivity partner, not a replacement for understanding</li>
+      <li>Keep learning as tools, frameworks, and best practices continue to evolve</li>
+    </ul>
+
+    <p>
+      Notice that none of these are new skills invented by the AI era. They are the same skills that have always defined strong engineers.
+      What has changed is how much they matter relative to raw typing speed or syntax memorization, both of which have become far less valuable almost overnight.
+    </p>
+
+    <h2>A Practical Mindset for Working With AI</h2>
+    <p>
+      For developers, students, and early-career engineers navigating this shift, a few practical habits make the difference between falling behind and getting ahead:
+    </p>
+
+    <ul>
+      <li>Use AI to explain unfamiliar code or concepts, not just to generate new code</li>
+      <li>Always read and understand AI-generated output before committing it</li>
+      <li>Practice solving problems without AI occasionally, to keep core skills sharp</li>
+      <li>Ask "why" a suggested solution works, not just "does" it work</li>
+      <li>Focus learning time on system design, architecture, and debugging — the areas AI struggles with most</li>
+    </ul>
+
+    <h2>Final Thoughts</h2>
+    <p>
+      AI is changing software development, and that change is already here. But change is not the same as replacement.
+      The tools developers use have always evolved — from assembly to high-level languages, from manual servers to the cloud, and now from manual coding to AI-assisted development.
+      Each shift changed the day-to-day work of a developer without eliminating the need for one.
+    </p>
+
+    <p>
+      What has not changed is the value of a developer who can think clearly, design well, communicate effectively, and make good decisions under uncertainty.
+      That is the part of software engineering AI is unlikely to fully replace anytime soon — and it is the part most worth investing in, regardless of how fast the tools around it continue to change.
+    </p>
+  `.trim(),
+  },
+  
+  {
     slug: "who-is-nifad-hasan-eimu",
     title: "Who is Nifad Hasan Eimu?",
     desc: "A detailed introduction to Nifad Hasan Eimu — Software Engineering student, aspiring web developer, problem solver, and future-focused tech enthusiast from Bangladesh.",
