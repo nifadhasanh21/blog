@@ -25,10 +25,10 @@ const POSTS = [
     </p>
 
     <img
-      src="ai-post.png"
-      alt="Software engineer working with AI coding assistant across multiple monitors"
-      style="width:60%; border-radius:16px; margin: 20px 0;"
-    />
+    src="ai-post.png"
+    alt="Software engineer working with AI coding assistant across multiple monitors"
+    style="width:85%; border-radius:16px; margin:20px 0;"
+   >
 
     <h2>The Fear Is Understandable — But It's Based on the Wrong Comparison</h2>
     <p>
