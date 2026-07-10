@@ -25,7 +25,7 @@ const POSTS = [
     </p>
 
     <img
-      src="/Post-1_AI isn't replacing developers—it's changing how they work."
+      src="Ai post.png"
       alt="Software engineer working with AI coding assistant across multiple monitors"
       style="width:60%; border-radius:16px; margin: 20px 0;"
     />
