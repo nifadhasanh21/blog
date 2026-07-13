@@ -1,5 +1,135 @@
 const POSTS = [
   {
+    slug: "building-in-public-what-my-current-project-is-teaching-me",
+
+    title: "Building in Public: What My Current Project Is Teaching Me",
+
+    desc: "A long-form, honest walkthrough of why I stopped hiding unfinished work, what my current project actually looks like behind the scenes, the mistakes I've made sharing it, and the lessons that only show up when you build in front of people instead of behind closed doors.",
+
+    date: "2026-07-13",
+
+    tags: ["build-in-public", "react", "software-development", "career", "github", "web-development"],
+
+    readingTime: "13 min read",
+
+    content: `
+    <p>
+      I used to think "building in public" meant posting a nice screenshot once a project was basically done, with a caption that made it sound harder than it was. I don't think that anymore. What I've actually been doing for the last few months looks nothing like a highlight reel — it looks like a running log of a project that is, most days, half-broken, half-decided, and half-mine to figure out.
+    </p>
+
+    <p>
+      This post is about that project. Not the polished version I'll eventually put in a portfolio, but the one that exists right now, today, with all its unresolved decisions still sitting on my desk. I want to walk through what it is, why I started talking about it before it was ready, what's gone wrong along the way, and the specific things it's taught me that no course or tutorial ever did.
+    </p>
+
+    <img
+    src="current-project.jpeg"
+    alt="Laptop with a React dashboard, VS Code, and GitHub open on a desk with a notebook and coffee"
+    style="width:85%; border-radius:16px; margin:20px 0;"
+   >
+
+    <h2>Where This Started</h2>
+    <p>
+      A few months ago I sat down to build what I thought would be a small, contained side project — a dashboard app to track a handful of metrics I cared about. Nothing complicated. React on the frontend, a small Node API behind it, a database with maybe four tables. I figured a weekend, two at most.
+    </p>
+
+    <p>
+      That estimate was wrong in almost every direction. Not because the idea was bad, but because I hadn't actually thought through what the dashboard needed to do once real data started flowing through it. The schema I designed on day one didn't survive contact with the actual use case. I rewrote it twice. The component structure I was proud of in week one became something I was quietly embarrassed by in week three, once I understood the app better than I did when I first sketched it out.
+    </p>
+
+    <p>
+      None of that is a complaint. It's just what building something actually looks like once you're past the planning stage and into the part where the project starts teaching you things you didn't know you needed to learn.
+    </p>
+
+    <h2>What the Project Actually Looks Like Right Now</h2>
+    <p>
+      If you walked past my desk on a normal day, here's what you'd see: the app running in one browser tab, the editor open with three or four files I'm actively switching between, a terminal quietly tailing logs so I can catch errors as they happen instead of after the fact, and a notebook off to the side that's become more important to this project than I expected it to be.
+    </p>
+
+    <p>
+      That notebook isn't for polished notes. It's where I sketch out how a feature is supposed to connect to the rest of the system before I let myself start typing code. More than once, the act of drawing a rough diagram of how two components were supposed to talk to each other has stopped me from building something that technically worked but didn't actually fit anywhere. Cheap insurance, in hindsight.
+    </p>
+
+    <p>
+      The dashboard itself, as it stands today, is not finished. The authentication flow works but needs another pass before I'd trust it in front of real users. The mobile layout breaks in a few places I haven't gotten around to fixing. And I'm still not fully convinced the current data structure will hold up if the project grows the way I'm hoping it will. All of that is true right now, while I'm writing this, and I'm choosing to say so instead of waiting until it isn't.
+    </p>
+
+    <h2>Why I Stopped Waiting Until It Was "Ready"</h2>
+    <p>
+      For years, my default was to keep projects private until they felt presentable. Presentable meant no visible bugs, a UI I wasn't self-conscious about, and code I could explain without flinching. The problem is that "presentable" is a moving target. The more I learned, the higher I set the bar for what counted as good enough to show anyone — which meant I almost never showed anything.
+    </p>
+
+    <p>
+      What finally broke that pattern wasn't confidence. It was noticing that keeping a project private wasn't actually making it better. When nobody sees the work, there's no real pressure to explain a decision clearly, which means it's easy to convince yourself a shortcut is fine when it isn't. Nobody was asking why a component re-rendered three times more than it should have, or why an API call had no error handling at all. In private, sloppy work and good work can look identical, because there's no outside eye checking the difference.
+    </p>
+
+    <p>
+      Sharing progress changed that almost immediately. Writing a short update about what I'd built that week meant I had to actually put the decision into words. And explaining a decision out loud — even briefly, even in a caption — turns out to be one of the fastest ways to notice that it was the wrong one.
+    </p>
+
+    <h2>The Mistakes That Came With Sharing Early</h2>
+    <p>
+      It hasn't been smooth. Early on, I posted an update showing a feature I was proud of, only to realize a day later that the "working" demo had a bug that made the whole thing meaningless under slightly different conditions. That was uncomfortable. My instinct was to quietly delete the post and pretend it hadn't happened.
+    </p>
+
+    <p>
+      I didn't, mostly because I couldn't think of a good reason to. The bug wasn't a moral failing, it was just an incomplete understanding of my own system — which is exactly the kind of thing that gets fixed faster when it's visible than when it's hidden. So instead of deleting it, I posted the fix, along with what I'd missed the first time. That turned out to be more useful to write, and probably more useful to read, than the original "look what I built" post ever was.
+    </p>
+
+    <p>
+      That's become something of a pattern. The updates that get the most honest engagement aren't the ones where everything worked. They're the ones where something broke, I said so, and then showed what I did about it.
+    </p>
+
+    <h2>The Lessons That Actually Stuck</h2>
+    <p>
+      Going into this, I assumed building in public would mostly sharpen my technical skills — better React patterns, cleaner backend structure, that sort of thing. It has done some of that. But the lessons that have actually stuck with me have been less about syntax and more about process.
+    </p>
+
+    <ul>
+      <li><b>Cleaner structure comes from revisiting old decisions</b>, not from getting the architecture right on the first attempt. Every rewrite taught me something the original version couldn't have.</li>
+      <li><b>A better UI usually means removing something</b>, not adding another button, panel, or option. Most of my early "improvements" were actually just more clutter dressed up as features.</li>
+      <li><b>Debugging gets faster once you stop assuming</b> the bug is where you think it is. Some of my longest debugging sessions ended in a file I hadn't even suspected.</li>
+      <li><b>User experience problems are usually unclear assumptions</b> about what someone actually needs, not a lack of polish. Fixing the assumption fixed the experience faster than any styling change did.</li>
+      <li><b>Most real problem solving happens before the first line of code</b>, in the thinking, sketching, and questioning that comes before you touch the keyboard.</li>
+    </ul>
+
+    <p>
+      None of these showed up in a tutorial, and I don't think they could have. They showed up after I shipped something rough, sat with it for a week, came back with fresh eyes, and asked what I'd actually change now that I understood the problem better than I did when I started.
+    </p>
+
+    <h2>Why Progress Beats Perfection, Even When It's Uncomfortable</h2>
+    <p>
+      There's a specific kind of discomfort in posting a screenshot of code you know isn't finished, or admitting that a feature you announced last week is being reworked because it wasn't right. Part of me still wants to wait until something is impressive before I talk about it.
+    </p>
+
+    <p>
+      But waiting for impressive usually means waiting indefinitely, because the goalposts move every single time you learn something new. The version of the dashboard I was proud of in month one looks unfinished to me now — and the version I finish next month will probably look the same way in hindsight. If I waited for a version I wouldn't want to improve, I'd never post anything at all.
+    </p>
+
+    <p>
+      So instead, the rule I've settled on is simple: share the version that exists today, say plainly what's still broken, and let the next update show the difference. That contrast — here's where it was, here's where it is now — has taught me more about my own growth than any single finished project ever has.
+    </p>
+
+    <h2>Where the Project Stands Today</h2>
+    <p>
+      As of right now, the dashboard authenticates users, but the flow needs another pass before I'd call it solid. The core metrics view works on desktop and breaks in a couple of predictable ways on smaller screens. The database schema is on its third version, and I still catch myself wondering if it'll need a fourth once more real usage comes through it.
+    </p>
+
+    <p>
+      I'm not waiting for those things to be resolved before talking about the project, and I'm not going to start now. The point of building in public, at least the way I've come to understand it, was never to perform confidence I don't have. It was to make the actual process visible — the parts that work, the parts that don't yet, and the thinking in between.
+    </p>
+
+    <h2>A Question Back to You</h2>
+    <p>
+      If you're building something right now, at whatever stage it's at, I'd genuinely like to know what it is. Not the version you're planning to show once it's finished — the one sitting on your desk today, unfinished and a little uncertain, exactly like mine.
+    </p>
+
+    <p>
+      What's the project you're currently working on, and what's the part of it you haven't figured out yet?
+    </p>
+  `.trim(),
+  },
+
+  {
     slug: "ai-is-not-replacing-developers-its-changing-how-they-work",
 
     title: "AI Isn't Replacing Developers — It's Changing How They Work",
